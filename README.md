@@ -21,7 +21,7 @@ This project uses neuroimaging data to explore brain regions associated with str
 
 | **Section**           | **Description**                                                                                  |
 |------------------------|--------------------------------------------------------------------------------------------------|
-| **Data**              |  Neuroimaging data (e.g., `.nii.gz` files) used for analysis, including functional and anatomical files. You can download the necessary data from [Neurosynth](https://neurosynth.org/analyses/terms/stress/). |
+| **Data**              | Neuroimaging data used for analysis: <br> - **`anatomical.nii.gz`**: Anatomical brain image. <br> - **`stress_uniformity-test_z_FDR_0.01.nii.gz`**: Functional MRI data showing brain regions associated with stress. <br> These files can be downloaded from [Neurosynth's Stress Analysis Page](https://neurosynth.org/analyses/stress).|
 | **Notebook**          | Main notebook file: **`main.ipynb`**. Contains all the code and visualizations.     |
 | **Readme**            | This file, which provides an overview of the project.                                           |
 
@@ -39,4 +39,4 @@ The following Python packages were used in this project:
 
 ## **.gitignore File**
 
-A `.gitignore` file is included to ensure that unnecessary files (such as temporary files or datasets) are not tracked by Git. You can customize the `.gitignore` to fit your project needs.
+A `.gitignore` file is included to ensure that unnecessary files (such as temporary files) are not tracked by Git. You can customize the `.gitignore` to fit your project needs.
